@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tektur:wght@400..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+  font-family: "Tektur", sans-serif;
+  background: linear-gradient(135deg, pink,white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form-container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px black;
+  width: 380px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color:black;
+  font-weight: 600;
+}
+
+div {
+  margin-bottom: 40px;
+  text-align: left;
+  line-height: 33px;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  background: black;
+  color:white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.705);
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 29px;
+}
+
